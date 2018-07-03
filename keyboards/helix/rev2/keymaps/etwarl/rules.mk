@@ -30,12 +30,16 @@ endef
 # you can edit follows 7 Variables
 #  jp: 以下の7つの変数を必要に応じて編集します。
 HELIX_ROWS = 5              # Helix Rows is 4 or 5
-OLED_ENABLE = yes            # OLED_ENABLE
+OLED_ENABLE = yes           # OLED_ENABLE
 LOCAL_GLCDFONT = no         # use each keymaps "helixfont.h" insted of "common/glcdfont.c"
-LED_BACK_ENABLE = yes        # LED backlight (Enable WS2812 RGB underlight.)
+LED_BACK_ENABLE = yes       # LED backlight (Enable WS2812 RGB underlight.)
 LED_UNDERGLOW_ENABLE = no   # LED underglow (Enable WS2812 RGB underlight.)
 LED_ANIMATIONS = yes        # LED animations
 IOS_DEVICE_ENABLE = no      # connect to IOS device (iPad,iPhone)
+
+# etwarl keymap ADD
+TAP_DANCE_ENABLE = yes
+AUTO_SHIFT_ENABLE = yes
 
 ####  LED_BACK_ENABLE and LED_UNDERGLOW_ENABLE.
 ####    Do not enable these with audio at the same time.

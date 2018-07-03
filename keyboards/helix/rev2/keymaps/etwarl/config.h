@@ -23,6 +23,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "../../config.h"
 
+/* use autoshift */
+#define AUTO_SHIFT_TIMEOUT 150
+#define NO_AUTOSHIFT_SPECIAL
+
 /* Use I2C or Serial */
 
 #define USE_I2C
@@ -63,7 +67,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define PREVENT_STUCK_MODIFIERS
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
 
 // Helix keyboard RGB LED support
 //#define RGBLIGHT_ANIMATIONS : see ./rules.mk: LED_ANIMATIONS = yes or no
