@@ -39,7 +39,7 @@ IOS_DEVICE_ENABLE = no      # connect to IOS device (iPad,iPhone)
 
 # etwarl keymap ADD
 TAP_DANCE_ENABLE = yes
-AUTO_SHIFT_ENABLE = yes
+#AUTO_SHIFT_ENABLE = yes
 
 ####  LED_BACK_ENABLE and LED_UNDERGLOW_ENABLE.
 ####    Do not enable these with audio at the same time.
