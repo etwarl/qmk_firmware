@@ -70,4 +70,4 @@ secrets.tar
 id_rsa_*
 /.vs
 
-./helix.sh
+helix.sh
