@@ -71,4 +71,5 @@ secrets.tar
 id_rsa_*
 /.vs
 
-helix.sh
+# python things
+__pycache__
